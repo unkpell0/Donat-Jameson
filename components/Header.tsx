@@ -38,8 +38,8 @@ const Header: React.FC = () => {
       <header className={`w-full py-4 px-4 sm:px-8 z-50 transition-all duration-300 ${isSticky || isMenuOpen ? 'fixed top-0 bg-brand-cream/80 backdrop-blur-lg shadow-lg' : 'absolute top-0 bg-transparent'}`}>
         <div className="max-w-5xl mx-auto flex justify-between items-center">
           <a href="#" className="flex-shrink-0 flex items-center gap-3">
-            <img src="https://iili.io/FcRWza2.png" alt="Donat Kentang DONERS Logo" className="h-12 w-auto" />
-            <span className="font-serif font-bold text-lg sm:text-xl text-brand-brown">Donat Kentang DONERS</span>
+            <img src="https://iili.io/Fc5vhLN.png" alt="Donat Kentang DONERS Logo" className="h-12 w-auto" />
+            <span className="font-bold text-lg sm:text-xl text-brand-brown">Donat Kentang DONERS</span>
           </a>
           
           <nav className="hidden lg:flex items-center gap-6 lg:gap-8 mx-auto">
@@ -78,7 +78,7 @@ const Header: React.FC = () => {
                 <a 
                   key={link.href} 
                   href={link.href} 
-                  className="font-serif text-3xl text-brand-brown hover:text-brand-orange transition-colors"
+                  className="text-3xl text-brand-brown hover:text-brand-orange transition-colors"
                   onClick={handleLinkClick}
                 >
                   {link.label}

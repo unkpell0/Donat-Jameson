@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-24 sm:py-32 flex flex-col lg:flex-row items-center gap-12">
         <div className="lg:w-1/2 text-center lg:text-left">
           <AnimatedSection>
-            <h1 className="font-serif text-5xl md:text-7xl font-extrabold text-brand-brown leading-tight">
+            <h1 className="text-5xl md:text-7xl font-extrabold text-brand-brown leading-tight">
               Bikin Tim Happy, <span className="text-brand-orange">Tanpa Repot.</span>
             </h1>
           </AnimatedSection>

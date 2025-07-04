@@ -7,7 +7,7 @@ const CTA: React.FC = () => {
     <section id="cta" className="py-20 sm:py-32 bg-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
         <AnimatedSection>
-          <h2 className="font-serif text-4xl sm:text-5xl font-extrabold text-brand-brown">
+          <h2 className="text-4xl sm:text-5xl font-extrabold text-brand-brown">
             Siap Manjakan Tim Anda?
           </h2>
           <p className="mt-4 text-lg text-stone-600 max-w-xl mx-auto">

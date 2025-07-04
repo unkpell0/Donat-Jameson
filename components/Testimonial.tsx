@@ -11,7 +11,7 @@ const Testimonial: React.FC = () => {
             <QuoteIcon className="absolute top-8 left-8 w-16 h-16 text-amber-100 -z-0" />
             <div className="relative z-10">
               <img src="https://i.pravatar.cc/100?u=manager" alt="Foto profil manajer" className="w-24 h-24 mx-auto rounded-full mb-6 border-4 border-brand-orange" />
-              <blockquote className="font-serif text-2xl sm:text-3xl font-bold text-brand-brown italic">
+              <blockquote className="text-2xl sm:text-3xl font-bold text-brand-brown italic">
                 “Donatnya lembut dan premium, beda dari yang lain. Tim jadi makin semangat meetingnya! Proses pesannya juga gampang banget.”
               </blockquote>
               <footer className="mt-8">

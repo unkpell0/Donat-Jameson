@@ -13,7 +13,7 @@ const Gallery: React.FC = () => {
     <section id="gallery" className="py-20 sm:py-32 bg-brand-cream">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <AnimatedSection className="text-center mb-16">
-          <h2 className="font-serif text-4xl sm:text-5xl font-extrabold text-brand-brown">Estetik, Enak, dan Siap Dibagi</h2>
+          <h2 className="text-4xl sm:text-5xl font-extrabold text-brand-brown">Estetik, Enak, dan Siap Dibagi</h2>
           <p className="mt-4 text-lg text-stone-600 max-w-2xl mx-auto">Cocok untuk segala momen di kantor, dari rapat penting hingga perayaan kecil.</p>
         </AnimatedSection>
 

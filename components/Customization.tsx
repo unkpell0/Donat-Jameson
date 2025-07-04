@@ -17,7 +17,7 @@ const Customization: React.FC = () => {
           </div>
           <div className="lg:w-1/2">
             <AnimatedSection>
-              <h2 className="font-serif text-4xl sm:text-5xl font-extrabold text-brand-brown leading-tight">
+              <h2 className="text-4xl sm:text-5xl font-extrabold text-brand-brown leading-tight">
                 Tunjukkan Identitas <span className="text-brand-orange">Perusahaan Anda</span>
               </h2>
               <p className="mt-6 text-lg text-stone-600">

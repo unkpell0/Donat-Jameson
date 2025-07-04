@@ -14,7 +14,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description }) =
     <div className="bg-brand-orange text-white w-16 h-16 rounded-full flex items-center justify-center mb-6">
       {icon}
     </div>
-    <h3 className="font-serif text-2xl font-bold mb-3 text-brand-brown">{title}</h3>
+    <h3 className="text-2xl font-bold mb-3 text-brand-brown">{title}</h3>
     <p className="text-stone-600">{description}</p>
   </div>
 );
@@ -42,7 +42,7 @@ const Features: React.FC = () => {
     <section id="features" className="py-20 sm:py-32 bg-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <AnimatedSection className="text-center mb-16">
-          <h2 className="font-serif text-4xl sm:text-5xl font-extrabold text-brand-brown">Kenapa Memilih Donat Kentang DONERS?</h2>
+          <h2 className="text-4xl sm:text-5xl font-extrabold text-brand-brown">Kenapa Memilih Donat Kentang DONERS?</h2>
           <p className="mt-4 text-lg text-stone-600 max-w-2xl mx-auto">Kami menyediakan lebih dari sekedar snack, kami memberikan kebahagiaan.</p>
         </AnimatedSection>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
