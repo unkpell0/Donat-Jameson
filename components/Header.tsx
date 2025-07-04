@@ -1,5 +1,6 @@
+
 import React, { useState, useEffect } from 'react';
-import { DonutIcon, MenuIcon, CloseIcon } from './Icons';
+import { MenuIcon, CloseIcon } from './Icons';
 
 const Header: React.FC = () => {
   const [isSticky, setSticky] = useState(false);
@@ -34,11 +35,11 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <header className={`w-full py-4 px-6 sm:px-10 z-50 transition-all duration-300 ${isSticky || isMenuOpen ? 'fixed top-0 bg-brand-cream/80 backdrop-blur-lg shadow-lg' : 'absolute top-0 bg-transparent'}`}>
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <a href="#" className="flex-shrink-0 flex items-center gap-2 text-xl font-bold font-serif text-brand-brown">
-            <DonutIcon className="w-8 h-8 text-brand-orange" />
-            Donat Bahagia
+      <header className={`w-full py-4 px-4 sm:px-8 z-50 transition-all duration-300 ${isSticky || isMenuOpen ? 'fixed top-0 bg-brand-cream/80 backdrop-blur-lg shadow-lg' : 'absolute top-0 bg-transparent'}`}>
+        <div className="max-w-5xl mx-auto flex justify-between items-center">
+          <a href="#" className="flex-shrink-0 flex items-center gap-3">
+            <img src="https://iili.io/FcRWza2.png" alt="Donat Kentang DONERS Logo" className="h-12 w-auto" />
+            <span className="font-serif font-bold text-lg sm:text-xl text-brand-brown">Donat Kentang DONERS</span>
           </a>
           
           <nav className="hidden lg:flex items-center gap-6 lg:gap-8 mx-auto">

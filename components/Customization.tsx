@@ -4,7 +4,7 @@ import AnimatedSection from './AnimatedSection';
 const Customization: React.FC = () => {
   return (
     <section id="customization" className="py-20 sm:py-32 bg-white">
-      <div className="container mx-auto px-6">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           <div className="lg:w-1/2">
             <AnimatedSection>

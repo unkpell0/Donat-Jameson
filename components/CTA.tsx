@@ -1,10 +1,11 @@
+
 import React from 'react';
 import AnimatedSection from './AnimatedSection';
 
 const CTA: React.FC = () => {
   return (
     <section id="cta" className="py-20 sm:py-32 bg-white">
-      <div className="container mx-auto px-6 text-center">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
         <AnimatedSection>
           <h2 className="font-serif text-4xl sm:text-5xl font-extrabold text-brand-brown">
             Siap Manjakan Tim Anda?
@@ -14,7 +15,7 @@ const CTA: React.FC = () => {
           </p>
           <div className="mt-10">
             <a 
-              href="https://wa.me/6281234567890?text=Halo,%20saya%20tertarik%20untuk%20memesan%20Donat%20Bahagia%20untuk%20kantor."
+              href="https://wa.me/6281234567890?text=Halo,%20saya%20tertarik%20untuk%20memesan%20Donat%20Kentang%20DONERS%20untuk%20kantor."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-brand-orange hover:bg-amber-500 text-white font-bold py-4 px-10 rounded-full transition-transform duration-300 ease-in-out hover:scale-105 shadow-lg text-lg"

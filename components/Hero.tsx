@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
        <div className="absolute -bottom-1/4 -left-1/4 w-1/2 h-1/2 bg-amber-200/50 rounded-full filter blur-3xl opacity-50"></div>
        <div className="absolute -top-1/4 -right-1/4 w-2/3 h-2/3 bg-orange-200/50 rounded-full filter blur-3xl opacity-50"></div>
 
-      <div className="relative z-10 container mx-auto px-6 py-24 sm:py-32 flex flex-col lg:flex-row items-center gap-12">
+      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-24 sm:py-32 flex flex-col lg:flex-row items-center gap-12">
         <div className="lg:w-1/2 text-center lg:text-left">
           <AnimatedSection>
             <h1 className="font-serif text-5xl md:text-7xl font-extrabold text-brand-brown leading-tight">
