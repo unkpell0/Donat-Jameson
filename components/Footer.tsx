@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
             <a href="#" target="_blank" rel="noopener noreferrer" className="text-brand-cream/80 hover:text-white transition-colors">
               <InstagramIcon className="w-6 h-6" />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-brand-cream/80 hover:text-white transition-colors">
+            <a href="https://wa.me/628170004118" target="_blank" rel="noopener noreferrer" className="text-brand-cream/80 hover:text-white transition-colors">
               <WhatsAppIcon className="w-6 h-6" />
             </a>
           </div>
